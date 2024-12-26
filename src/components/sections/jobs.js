@@ -176,6 +176,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              company_full
               location
               range
               url
@@ -273,8 +274,8 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
-
+              const { title, url, company, company_full, range } = frontmatter;
+              const displayedCompany = company_full || company;
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
                   <StyledTabPanel
@@ -289,7 +290,7 @@ const Jobs = () => {
                       <span className="company">
                         &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
-                          {company}
+                          {displayedCompany}
                         </a>
                       </span>
                     </h3>

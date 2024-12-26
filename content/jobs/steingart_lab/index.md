@@ -1,7 +1,8 @@
 ---
 date: '2023-05-1'
 title: 'Software Engineering Intern'
-company: 'Steingart Lab	'
+company: 'Steingart Lab'
+company_full: 'Steingart Lab (Columbia University)'
 location: 'New York, NY'
 range: 'May 2023 - August 2024'
 url: 'https://steingart.engineering.columbia.edu'

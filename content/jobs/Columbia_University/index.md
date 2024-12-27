@@ -8,4 +8,5 @@ range: 'September 2024 - Present'
 url: 'https://www.cs.columbia.edu'
 ---
 
-- COMSW 4701: Artificial Intelligence
+- COMSW 4701: Artificial Intelligence.
+- COMSW 4705: Natural Language Processing.

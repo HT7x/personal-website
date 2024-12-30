@@ -10,4 +10,4 @@ tech:
   - JavaScript
 ---
 
-A car racing game where players are meant to lose!
+A car game where players try to avoid obstacles.

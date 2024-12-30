@@ -8,4 +8,4 @@ tech:
   - Haskell
 ---
 
-Implemented advanced AI algorithms to build an agent for Ultimate Tic-tac-toe. You will lose against the AI!
+AI agent capable of competing (and winning) against human players in Ultimate Tic-Tac-Toe. The project involved implementing advanced algorithms for strategic decision-making and optimizing gameplay to ensure a competitive experience.

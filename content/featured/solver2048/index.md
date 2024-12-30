@@ -8,4 +8,4 @@ tech:
   - Python
 ---
 
-Struggling with 2048? My unbeatable AI agent never does!
+Solver for the popular 2048 puzzle game. The project leverages algorithmic strategies and heuristics to make optimal moves and achieve high scores consistently.

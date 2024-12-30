@@ -250,7 +250,7 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      // opacity: 0.25;
+      opacity: 0.25;
     }
 
     a {
@@ -262,13 +262,13 @@ const StyledProject = styled.li`
 
       &:hover,
       &:focus {
-        // background: transparent;
+        background: transparent;
         outline: 0;
 
         &:before,
         .img {
-          // background: transparent;
-          // filter: none;
+          background: transparent;
+          filter: none;
         }
       }
 
@@ -284,13 +284,13 @@ const StyledProject = styled.li`
         z-index: 3;
         transition: var(--transition);
         // background-color: var(--navy);
-        // mix-blend-mode: screen;
+        mix-blend-mode: screen;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      // mix-blend-mode: multiply;
+      mix-blend-mode: multiply;
       // filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {

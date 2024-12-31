@@ -1,7 +1,8 @@
 ---
 date: '2024-08-1'
 title: 'Co-Founder'
-company: 'Flipp Tickets'
+company: 'Flipp'
+company_full: 'Flipp Tickets'
 location: 'New York, NY'
 range: 'August 2024 - Present'
 url: 'https://flipptickets.com/'
